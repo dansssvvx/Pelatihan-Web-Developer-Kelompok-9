@@ -1,0 +1,40 @@
+*/
+:root { 
+    --container-width: 1140px;
+}
+
+* {
+    margin: 0 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+img{
+    max-width: fit-content;
+}
