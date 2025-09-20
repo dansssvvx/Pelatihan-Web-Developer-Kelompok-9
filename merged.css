@@ -1,0 +1,351 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+  background: #fff;
+  text-align: center;
+}
+
+/* Header from Nazril */
+.batas {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #fff;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-align: left;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #000;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-outline:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Hero Section from Nazril */
+.hero {
+  padding: 80px 0;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.gambar img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Section from Mustafida */
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  min-height: 500px;
+  text-align: left;
+}
+
+.section-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.section-text small {
+  color: #120101;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.section-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #120101;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.section-text p {
+  color: #120101;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.kotak {
+  background-color: #333;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.kotak:hover {
+  background-color: #555;
+}
+
+.section-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Oktora's Section */
+.oktora-section {
+    padding: 40px 20px;
+}
+
+.Gambar {
+    width: 400px;
+    margin-right: 3%;
+    text-align: left;
+}
+
+
+
+/* Romi's Testimonials */
+.testimonials {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonials p.subtitle {
+  color: #505050;
+  margin-bottom: 40px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.testimonial p.quote {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonial .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial .avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.testimonial .name {
+  font-weight: bold;
+}
+
+.testimonial .position {
+  font-size: 0.85rem;
+  color: #505050;
+}
+
+.nav-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background: #f0f0f0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+/* Romi's Footer */
+.bar_bawah{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 20px 5%;
+  text-align: left;
+}
+.bar_bawah .logo {
+  height : 50px;
+  width : 50px;
+  margin: 3px 3px;
+}
+
+.links {
+  margin-left: 9%;
+}
+
+.links a {
+  margin : 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social img {
+  height : 20px;
+  width : 20px;
+  margin: 3px 3px;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+footer .legal a {
+  margin: 0 8px;
+  color: #666;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
