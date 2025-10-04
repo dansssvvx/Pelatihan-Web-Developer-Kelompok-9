@@ -1,0 +1,106 @@
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    font-family: "pacifico", cursive;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    align-self: center;
+}
+.kotak{
+    width: 90%;
+    padding: 20px;
+    border: 1.5px solid black;
+    margin-top: 100%, auto;
+}
+.signup{
+    margin-bottom: 10px;
+    font-size: medium;
+}
+input[type="text"]
+input[type="email"]
+input[type="password"]
+
+.action{
+    margin-top: 10px;
+    margin-right: 0%;
+    margin-right: 2%;
+    width: 98%;
+}
+.body{
+  display: flex;
+  margin: 40px 0;
+  justify-content: center; /* horizontal tengah */
+  align-items: center;     /* vertikal tengah */
+  height: auto;           /* tinggi penuh layar */
+}
+form {
+  width: 300px;         /* lebar form (bisa disesuaikan) */
+  margin: 20px auto;    /* posisi form di tengah halaman */
+  font-family: Arial, sans-serif;
+}
+label {
+  display: block;       /* supaya label panjang penuh */
+  width: 100%;          /* panjang penuh mengikuti form */
+  text-align: left;     /* teks label rata kiri */
+  margin-bottom: 3px;   /* jarak antara label dan input */
+}
+input {
+  width: 100%;          /* input selebar form */
+  padding: 8px;
+  margin-bottom: 15px;  /* jarak antar input */
+  box-sizing: border-box; /* padding masuk ke lebar */
+}
+.buttons {
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.login {
+background-color: #333;
+color: white;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+/* Wadah tombol */
+.button-box {
+  width: 300px;              /* lebar tombol (bisa disesuaikan) */
+  margin: 40px auto;         /* posisi tengah halaman */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;                 /* jarak antar tombol */
+  font-family: Arial, sans-serif;
+}
+
+/* Tombol hitam penuh */
+.btn-signup {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+}
+.btn-signup:hover {
+  background-color: #333;
+}
+/* Tombol Google putih dengan border */
+.btn-google {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 14px;
+  font-size: 16px;
+  display: flex;                 /* agar G dan teks sejajar */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;                       /* jarak antara G dan teks */
+
+}
+
+
